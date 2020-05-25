@@ -10,7 +10,7 @@ public class volatileTest {
     public static void main(String[] args) {
         Thread1 thread1 = new Thread1();
         thread1.start();
-        int b=1;
+        int b = 1;
         while (true) {
             if (thread1.getA() == 1) {
                 System.out.println("ok");
